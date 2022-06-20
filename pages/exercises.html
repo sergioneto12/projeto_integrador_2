@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/exercises.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <menu>
+        <div class="left-menu">
+            <img class="img-top" src="/imgs/Rectangle 1.png" alt="book">
+            <input type="search" placeholder="Pesquisar...">
+        </div>
+        <div class="btns">
+            <li>
+                <a href="/pages/login.html">Login</a>
+            </li>
+            <li>
+                <a href="/pages/home.html">Home</a>
+            </li>
+            <li>
+                <a href="/pages/content.html">Playlists</a>
+            </li>
+            <li>
+                <a href="">Ajude a Conectar Mais</a>
+            </li>
+        </div>
+    </menu>
+
+    <main class="main">
+        <section class="content">
+            <div>
+                <h1 class="main-title">Números Naturais - Teste seus conhecimentos</h1>
+                <h3 class="advise">Antes de começar...</h3>
+                <h3 class="advise">
+                    <li>Este teste nao possui tempo. Ele é apenas um indicativo sobre seus conhecimentos e pontos de melhoria sobre o tema abordado.</li>
+                    <li>Caso ache necessário, relembre algumas coisas sobre o tema, e volte aqui para testar seu conhecimento.</li>
+                    <li>Não utilize nenhum material auxiliar, tente realizar o teste de maneira autêntica!</li>
+                    <li>Boa sorte, e bons estudos!</li>
+                </h3>
+            </div>
+
+            <div class="first-test">
+                <h1 class="question-title"><b>1 -</b> Brincando com os naturais:</h1>
+
+                <h3 class="question"> 
+                    Imagine os números naturais como o seu quintal. Imagine a possibilidade de criar um novo número a partir de uma combinação infinita de cores, sentimentos, de qualquer coisa que você imaginar. <br></br>
+                
+                    A partir disso, você conseguiu criar uma gama de respostas para essa questão (assim acreditamos). Para tal, tente mensurar a quantidade de respostas que você criou:
+                    <br></br>
+
+                    <div class="answer">
+                        <div><input type="radio" class="box" id="1" name="first" value="1">1</input></div>
+                        <div><input type="radio" class="box" id="2" name="first" value="2">2</input></div>
+                        <div><input type="radio" class="box" id="'infinitas" name="first" value="infinitas">infinitas</input></div>
+                        <div><input type="radio" class="box" id="3" name="first" value="3">3 ou +</input></div>
+                    </div>
+                </h3>
+            </div>
+
+            <div class="second-test">
+                <h1 class="question-title"><b>2 -</b> Incontáveis estrelas naturais:</h1>                
+                <img class="img-second-test" src="/imgs/test-exec.jpg" alt="imagem" style="max-width: 1150px;">
+                <h3 class="question"> 
+                    Vendo essa imagem, que descreve a vastidão da nossa galáxia, você seria capaz de encontrar um número que representaria o total de estrelas contidas nessa imagem? Dê um palpite abaixo:
+                </h3>
+
+                <div class="answer">
+                    <label style="font-size: 24px;">Resposta:</label>
+                    <input id="input-stars" class="stars" type="text"></input>
+                </div>
+            </div>
+
+            <div class="third-test">
+                <h1 class="question-title"><b>3 -</b> Então... o que são números naturais?</h1>                
+                <h3 class="question"> 
+                    Com base nas suas respostas, tente definir o que são números naturais. <br></br>
+                    Lembre-se de como os usou aqui, imagine a partir de qual número eles podem começar e se achar interessante, defina dizendo como você os usaria em seu dia-a-dia!
+                </h3>
+
+                <div class="answer">
+                    <input id="input-text" class="its-definition" type="text"></input>
+                </div>
+            </div>
+            <button onclick="Answers()">Enviar</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <h3 class="foot">Desenvolvido por: Turma 4 do Projeto Integrador 2 (Turmas de 2020)
+            <BR></BR>
+            Eixo da Computação
+        </h3>
+    </footer>
+
+    <script type="text/javascript" src="/scripts/exerc.js"></script>
+</body>
+
+</html>
